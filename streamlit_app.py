@@ -1,4 +1,5 @@
-import streamlit as st
+import os; os.system("pip install plotly pandas")
+import streamlit as stimport os; os.system("pip install plotly pandas")
 import pandas as pd
 import plotly.express as px
 from datetime import datetime, timezone, timedelta
